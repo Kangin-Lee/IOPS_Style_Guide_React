@@ -1,0 +1,156 @@
+//사이드 바 메뉴 라우트 설정
+
+import App from "../App";
+import ButtonsPage from "../pages/buttons";
+import {
+  Badge,
+  BookOpenText,
+  Bone,
+  Calendar1,
+  CalendarDays,
+  ChartArea,
+  ChevronRight,
+  CircleArrowRight,
+  FileUp,
+  Grid3X3,
+  Heading,
+  LayoutDashboard,
+  ListCollapse,
+  Logs,
+  MessageCircleWarning,
+  Search,
+  Settings2,
+  Square,
+  Table,
+  Text,
+  Home,
+} from "lucide-react";
+
+export const sideMenuRoutes = [
+  {
+    path: "/",
+    title: "Home",
+    icon: <Home size={16} />,
+    element: <App />,
+  },
+  {
+    path: "/accordion",
+    title: "Accordion",
+    icon: <ListCollapse size={16} />,
+    element: <div>Accordion Page</div>,
+  },
+  {
+    path: "/badge",
+    title: "Badge",
+    icon: <Badge size={16} />,
+    element: <div>Badge Page</div>,
+  },
+  {
+    path: "/breadcrumb",
+    title: "Breadcrumb",
+    icon: <ChevronRight size={16} />,
+    element: <div>Breadcrumb Page</div>,
+  },
+  {
+    path: "/button",
+    title: "Button",
+    icon: <CircleArrowRight size={16} />,
+    element: <ButtonsPage />,
+  },
+  {
+    path: "/calendar",
+    title: "Calendar",
+    icon: <CalendarDays size={16} />,
+    element: <div>Calendar Page</div>,
+  },
+  {
+    path: "/card",
+    title: "Card",
+    icon: <Square size={16} />,
+    element: <div>Card Page</div>,
+  },
+  {
+    path: "/chart",
+    title: "Chart",
+    icon: <ChartArea size={16} />,
+    element: <div>Chart Page</div>,
+  },
+  {
+    path: "/datepicker",
+    title: "DatePicker",
+    icon: <Calendar1 size={16} />,
+    element: <div>DatePicker Page</div>,
+  },
+  {
+    path: "/feedback",
+    title: "Feedback",
+    icon: <MessageCircleWarning size={16} />,
+    element: <div>Feedback Page</div>,
+  },
+  {
+    path: "/fileupload",
+    title: "FileUpload",
+    icon: <FileUp size={16} />,
+    element: <div>FileUpload Page</div>,
+  },
+  {
+    path: "/grid",
+    title: "Grid",
+    icon: <Grid3X3 size={16} />,
+    element: <div>Grid Page</div>,
+  },
+  {
+    path: "/icon",
+    title: "Icon",
+    icon: <Search size={16} />,
+    element: <div>Icon Page</div>,
+  },
+  {
+    path: "/layout",
+    title: "Layout",
+    icon: <LayoutDashboard size={16} />,
+    element: <div>Layout Page</div>,
+  },
+  {
+    path: "/pagination",
+    title: "Pagination",
+    icon: <BookOpenText size={16} />,
+    element: <div>Pagination Page</div>,
+  },
+  {
+    path: "/skeleton",
+    title: "Skeleton",
+    icon: <Bone size={16} />,
+    element: <div>Skeleton Page</div>,
+  },
+  {
+    path: "/slider",
+    title: "Slider",
+    icon: <Settings2 size={16} />,
+    element: <div>Slider Page</div>,
+  },
+  {
+    path: "/table",
+    title: "Table",
+    icon: <Table size={16} />,
+    element: <div>Table Page</div>,
+  },
+  {
+    path: "/tabs",
+    title: "Tabs",
+    icon: <Logs size={16} />,
+    element: <div>Tabs Page</div>,
+  },
+  {
+    path: "/text",
+    title: "Text",
+    icon: <Text size={16} />,
+    element: <div>Text Page</div>,
+  },
+  {
+    path: "/title",
+    title: "Title",
+    icon: <Heading size={16} />,
+    element: <div>Title Page</div>,
+  },
+];
