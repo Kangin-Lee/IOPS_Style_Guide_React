@@ -1,5 +1,6 @@
 //사이드 바 메뉴 라우트 설정
 
+import BadgePage from "@/pages/badge";
 import App from "../App";
 import ButtonsPage from "../pages/buttons";
 import {
@@ -25,6 +26,7 @@ import {
   Text,
   Home,
 } from "lucide-react";
+import AccordionPage from "@/pages/accordion";
 
 export const sideMenuRoutes = [
   {
@@ -37,13 +39,13 @@ export const sideMenuRoutes = [
     path: "/accordion",
     title: "Accordion",
     icon: <ListCollapse size={16} />,
-    element: <div>Accordion Page</div>,
+    element: <AccordionPage />,
   },
   {
     path: "/badge",
     title: "Badge",
     icon: <Badge size={16} />,
-    element: <div>Badge Page</div>,
+    element: <BadgePage />,
   },
   {
     path: "/breadcrumb",

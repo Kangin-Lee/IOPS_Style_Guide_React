@@ -1,12 +1,11 @@
 // 메인 페이지에 있는 메뉴 리스트를 뿌려주는 컴포넌트
 
 import { Link } from "react-router-dom";
-import { mainMenuRoutes } from "../../../routes/mainMenuRoutes";
 
-export default function MainMenuList() {
+export default function MainMenuList({ filteredComponents }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-[20px]">
-      {mainMenuRoutes.map((route) => (
+      {filteredComponents.map((route) => (
         <div key={route.id}>
           <Link to={route.href}>
             <img
