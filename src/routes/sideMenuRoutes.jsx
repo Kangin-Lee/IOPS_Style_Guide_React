@@ -27,6 +27,7 @@ import {
   Home,
 } from "lucide-react";
 import AccordionPage from "@/pages/accordion";
+import InputPage from "@/pages/input";
 
 export const sideMenuRoutes = [
   {
@@ -106,6 +107,12 @@ export const sideMenuRoutes = [
     title: "Icon",
     icon: <Search size={16} />,
     element: <div>Icon Page</div>,
+  },
+  {
+    path: "/input",
+    title: "Input",
+    icon: <Search size={16} />,
+    element: <InputPage />,
   },
   {
     path: "/layout",

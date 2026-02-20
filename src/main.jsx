@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ButtonsPage from "./pages/buttons/index.jsx";
 import RootLayout from "./layout/RootLayout.jsx";
 import { sideMenuRoutes } from "./routes/sideMenuRoutes.jsx";
+import { Toaster } from "sonner";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -22,6 +23,7 @@ createRoot(document.getElementById("root")).render(
           ))}
         </Route>
       </Routes>
+      <Toaster/>
     </BrowserRouter>
   </StrictMode>,
 );
