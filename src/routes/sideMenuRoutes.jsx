@@ -25,9 +25,13 @@ import {
   Table,
   Text,
   Home,
+  Joystick,
 } from "lucide-react";
 import AccordionPage from "@/pages/accordion";
 import InputPage from "@/pages/input";
+import TabsPage from "@/pages/tabs";
+import FeedbackPage from "@/pages/feedback";
+import ControlPage from "@/pages/control";
 
 export const sideMenuRoutes = [
   {
@@ -79,6 +83,12 @@ export const sideMenuRoutes = [
     element: <div>Chart Page</div>,
   },
   {
+    path: "/control",
+    title: "Control",
+    icon: <Joystick size={16} />,
+    element: <ControlPage />,
+  },
+  {
     path: "/datepicker",
     title: "DatePicker",
     icon: <Calendar1 size={16} />,
@@ -88,7 +98,7 @@ export const sideMenuRoutes = [
     path: "/feedback",
     title: "Feedback",
     icon: <MessageCircleWarning size={16} />,
-    element: <div>Feedback Page</div>,
+    element: <FeedbackPage/>,
   },
   {
     path: "/fileupload",
@@ -148,7 +158,7 @@ export const sideMenuRoutes = [
     path: "/tabs",
     title: "Tabs",
     icon: <Logs size={16} />,
-    element: <div>Tabs Page</div>,
+    element: <TabsPage/>,
   },
   {
     path: "/text",

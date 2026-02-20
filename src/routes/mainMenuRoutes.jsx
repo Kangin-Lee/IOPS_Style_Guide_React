@@ -68,7 +68,7 @@ export const mainMenuRoutes = [
   {
     id: "checkbox",
     img: "/images/components/Checkbox.svg",
-    href: "/checkbox",
+    href: "/control",
     title: "Checkbox",
     description:
       "복수 선택이 필요한 항목에서 사용되며, 각 옵션을 독립적으로 on/off 할 수 있는 입력 요소입니다.",
@@ -164,7 +164,7 @@ export const mainMenuRoutes = [
   {
     id: "radio",
     img: "/images/components/Radio.svg",
-    href: "/radiogroup",
+    href: "/control",
     title: "RadioGroup",
     description:
       "여러 옵션 중 하나만 선택 가능한 입력 그룹으로, 상호 배타적인 선택지를 명확히 구분할 때 사용합니다.",
@@ -172,7 +172,7 @@ export const mainMenuRoutes = [
   {
     id: "selectbox",
     img: "/images/components/Select.svg",
-    href: "/selectbox",
+    href: "/control",
     title: "SelectBox",
     description:
       "여러 옵션 중 하나를 선택할 수 있는 드롭다운 형태의 컴포넌트로, 공간을 절약하면서 선택지를 제공할 수 있습니다.",
@@ -252,7 +252,7 @@ export const mainMenuRoutes = [
   {
     id: "toggle",
     img: "/images/components/Toggle.svg",
-    href: "/toggle",
+    href: "/control",
     title: "Toggle",
     description:
       "켜짐/꺼짐(on/off) 상태를 전환할 수 있는 스위치 형태의 컴포넌트로, 즉각적인 설정 변경이나 기능 활성화에 적합합니다.",
