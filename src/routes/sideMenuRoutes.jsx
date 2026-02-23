@@ -32,6 +32,8 @@ import InputPage from "@/pages/input";
 import TabsPage from "@/pages/tabs";
 import FeedbackPage from "@/pages/feedback";
 import ControlPage from "@/pages/control";
+import SliderPage from "@/pages/slider";
+import BreadcrumbPage from "@/pages/breadcrumb";
 
 export const sideMenuRoutes = [
   {
@@ -56,7 +58,7 @@ export const sideMenuRoutes = [
     path: "/breadcrumb",
     title: "Breadcrumb",
     icon: <ChevronRight size={16} />,
-    element: <div>Breadcrumb Page</div>,
+    element: <BreadcrumbPage />,
   },
   {
     path: "/button",
@@ -146,7 +148,7 @@ export const sideMenuRoutes = [
     path: "/slider",
     title: "Slider",
     icon: <Settings2 size={16} />,
-    element: <div>Slider Page</div>,
+    element: <SliderPage/>,
   },
   {
     path: "/table",
