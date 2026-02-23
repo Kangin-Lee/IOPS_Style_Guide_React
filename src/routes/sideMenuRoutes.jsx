@@ -26,6 +26,7 @@ import {
   Text,
   Home,
   Joystick,
+  Icon,
 } from "lucide-react";
 import AccordionPage from "@/pages/accordion";
 import InputPage from "@/pages/input";
@@ -34,6 +35,10 @@ import FeedbackPage from "@/pages/feedback";
 import ControlPage from "@/pages/control";
 import SliderPage from "@/pages/slider";
 import BreadcrumbPage from "@/pages/breadcrumb";
+import CardPage from "@/pages/card";
+import IconPage from "@/pages/icon";
+import PaginationPage from "@/pages/pagination";
+import ChartsPage from "@/pages/charts";
 
 export const sideMenuRoutes = [
   {
@@ -76,13 +81,13 @@ export const sideMenuRoutes = [
     path: "/card",
     title: "Card",
     icon: <Square size={16} />,
-    element: <div>Card Page</div>,
+    element: <CardPage />,
   },
   {
     path: "/chart",
     title: "Chart",
     icon: <ChartArea size={16} />,
-    element: <div>Chart Page</div>,
+    element: <ChartsPage />,
   },
   {
     path: "/control",
@@ -118,7 +123,7 @@ export const sideMenuRoutes = [
     path: "/icon",
     title: "Icon",
     icon: <Search size={16} />,
-    element: <div>Icon Page</div>,
+    element: <IconPage />,
   },
   {
     path: "/input",
@@ -136,7 +141,7 @@ export const sideMenuRoutes = [
     path: "/pagination",
     title: "Pagination",
     icon: <BookOpenText size={16} />,
-    element: <div>Pagination Page</div>,
+    element: <PaginationPage/>,
   },
   {
     path: "/skeleton",
