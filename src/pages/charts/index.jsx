@@ -12,7 +12,7 @@ export default function ChartsPage() {
       <h1 className="text-2xl font-bold mb-6">Charts Examples</h1>
       <div className="w-fit">
         <CodeBox
-          code={`n<LineChart width={400} height={400} data={data}><Line type="monotone" dataKey="uv" stroke="#c1c1c1"/></LineChart>`}
+          code={`<LineChart width={400} height={400} data={data}><Line type="monotone" dataKey="uv" stroke="#c1c1c1"/></LineChart>`}
         />
       </div>
 

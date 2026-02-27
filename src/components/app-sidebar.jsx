@@ -26,7 +26,8 @@ export function AppSidebar() {
                 const isActive =
                   route.path === "/"
                     ? pathname === "/"
-                    : pathname.startsWith(route.path);
+                    : pathname === route.path ||
+                      pathname.startsWith(route.path + "/");
 
                 return (
                   <SidebarMenuItem key={route.path}>

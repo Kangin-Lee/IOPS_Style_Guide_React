@@ -27,6 +27,8 @@ import {
   Home,
   Joystick,
   Icon,
+  BookOpenTextIcon,
+  TextInitial,
 } from "lucide-react";
 import AccordionPage from "@/pages/accordion";
 import InputPage from "@/pages/input";
@@ -39,6 +41,12 @@ import CardPage from "@/pages/card";
 import IconPage from "@/pages/icon";
 import PaginationPage from "@/pages/pagination";
 import ChartsPage from "@/pages/charts";
+import GridPage from "@/pages/grid";
+import FileUploadPage from "@/pages/fileUpload";
+import SkeletonPage from "@/pages/skeleton";
+import TablePage from "@/pages/table";
+import TextareaPage from "@/pages/textarea";
+import TextPage from "@/pages/text";
 
 export const sideMenuRoutes = [
   {
@@ -111,13 +119,13 @@ export const sideMenuRoutes = [
     path: "/fileupload",
     title: "FileUpload",
     icon: <FileUp size={16} />,
-    element: <div>FileUpload Page</div>,
+    element: <FileUploadPage />,
   },
   {
     path: "/grid",
     title: "Grid",
     icon: <Grid3X3 size={16} />,
-    element: <div>Grid Page</div>,
+    element: <GridPage />,
   },
   {
     path: "/icon",
@@ -135,7 +143,7 @@ export const sideMenuRoutes = [
     path: "/layout",
     title: "Layout",
     icon: <LayoutDashboard size={16} />,
-    element: <div>Layout Page</div>,
+    element: <div>Layout 페이지입니다.</div>,
   },
   {
     path: "/pagination",
@@ -147,7 +155,7 @@ export const sideMenuRoutes = [
     path: "/skeleton",
     title: "Skeleton",
     icon: <Bone size={16} />,
-    element: <div>Skeleton Page</div>,
+    element: <SkeletonPage />,
   },
   {
     path: "/slider",
@@ -159,7 +167,7 @@ export const sideMenuRoutes = [
     path: "/table",
     title: "Table",
     icon: <Table size={16} />,
-    element: <div>Table Page</div>,
+    element: <TablePage />,
   },
   {
     path: "/tabs",
@@ -171,7 +179,13 @@ export const sideMenuRoutes = [
     path: "/text",
     title: "Text",
     icon: <Text size={16} />,
-    element: <div>Text Page</div>,
+    element: <TextPage />,
+  },
+  {
+    path: "/textarea",
+    title: "Textarea",
+    icon: <TextInitial size={16} />,
+    element: <TextareaPage />,
   },
   {
     path: "/title",

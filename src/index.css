@@ -3,6 +3,9 @@
 @source "./src/**/*.{js,ts,jsx,tsx}";
 
 @custom-variant dark (&:is(.dark *));
+body {
+  font-family: "Pretendard", sans-serif;
+}
 
 :root {
   /* shadcn tokens */
@@ -242,4 +245,12 @@
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1536px;
   --breakpoint-3xl: 1700px;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+  font-weight: 100 900; /* Variable font 범위 지정 */
+  font-style: normal;
+  font-display: swap;
 }
