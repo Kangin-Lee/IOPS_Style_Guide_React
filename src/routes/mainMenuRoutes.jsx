@@ -233,14 +233,14 @@ export const mainMenuRoutes = [
     description:
       "여러 줄의 자유로운 텍스트 입력이 필요한 경우 사용하는 폼 요소로, 입력 길이에 따라 크기 조절이 가능하며 내용 가독성을 고려한 여백과 폰트 설정이 중요합니다.",
   },
-  {
-    id: "title Component",
-    img: "/images/components/Title.svg",
-    href: "/title",
-    title: "Title Component",
-    description:
-      "콘텐츠 구조를 구분하고 사용자에게 현재 위치나 섹션의 성격을 명확히 안내하기 위한 헤드라인 역할을 합니다.",
-  },
+  // {
+  //   id: "title Component",
+  //   img: "/images/components/Title.svg",
+  //   href: "/title",
+  //   title: "Title Component",
+  //   description:
+  //     "콘텐츠 구조를 구분하고 사용자에게 현재 위치나 섹션의 성격을 명확히 안내하기 위한 헤드라인 역할을 합니다.",
+  // },
   {
     id: "toast",
     img: "/images/components/Toast.svg",

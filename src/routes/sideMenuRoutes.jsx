@@ -187,10 +187,10 @@ export const sideMenuRoutes = [
     icon: <TextInitial size={16} />,
     element: <TextareaPage />,
   },
-  {
-    path: "/title",
-    title: "Title",
-    icon: <Heading size={16} />,
-    element: <div>Title Page</div>,
-  },
+  // {
+  //   path: "/title",
+  //   title: "Title",
+  //   icon: <Heading size={16} />,
+  //   element: <div>Title Page</div>,
+  // },
 ];

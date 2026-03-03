@@ -1,5 +1,10 @@
 import CodeBox from "@/components/codebox/CodeBox";
-import TextInput from "./components/TextInput";
+import TextInput from "./components/textInput/TextInput";
+import PasswordInput from "./components/passwordInput/PasswordInput";
+import EmailInput from "./components/emailInput/EmailInput";
+import NumberInput from "./components/numberInput/NumberInput";
+import PhoneInput from "./components/phoneInput/PhoneInput";
+import OtpInput from "./components/otpInput/OtpInput";
 
 export default function InputPage() {
   return (
@@ -15,12 +20,19 @@ export default function InputPage() {
         <TextInput />
 
         {/* Password Input */}
+        <PasswordInput />
 
         {/* Email Input */}
+        <EmailInput />
 
         {/* Number Input */}
+        <NumberInput />
 
         {/* Phone Input */}
+        <PhoneInput />
+
+        {/* Otp Input */}
+        <OtpInput />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import CodeBox from "@/components/codebox/CodeBox";
+import DynamicTable from "./DynamicTable";
 
 export default function TableComponent() {
   return (
@@ -9,7 +10,7 @@ export default function TableComponent() {
           Shadcn/ui Table + React Table
         </h2>
         <div className="flex gap-4 flex-wrap">
-          {/* <ReactTable /> */}
+          <DynamicTable />
         </div>
       </section>
 
