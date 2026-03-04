@@ -47,6 +47,7 @@ import SkeletonPage from "@/pages/skeleton";
 import TablePage from "@/pages/table";
 import TextareaPage from "@/pages/textarea";
 import TextPage from "@/pages/text";
+import DatePickerPage from "@/pages/datepicker";
 
 export const sideMenuRoutes = [
   {
@@ -107,13 +108,13 @@ export const sideMenuRoutes = [
     path: "/datepicker",
     title: "DatePicker",
     icon: <Calendar1 size={16} />,
-    element: <div>DatePicker Page</div>,
+    element: <DatePickerPage />,
   },
   {
     path: "/feedback",
     title: "Feedback",
     icon: <MessageCircleWarning size={16} />,
-    element: <FeedbackPage/>,
+    element: <FeedbackPage />,
   },
   {
     path: "/fileupload",
@@ -149,7 +150,7 @@ export const sideMenuRoutes = [
     path: "/pagination",
     title: "Pagination",
     icon: <BookOpenText size={16} />,
-    element: <PaginationPage/>,
+    element: <PaginationPage />,
   },
   {
     path: "/skeleton",
@@ -161,7 +162,7 @@ export const sideMenuRoutes = [
     path: "/slider",
     title: "Slider",
     icon: <Settings2 size={16} />,
-    element: <SliderPage/>,
+    element: <SliderPage />,
   },
   {
     path: "/table",
@@ -173,7 +174,7 @@ export const sideMenuRoutes = [
     path: "/tabs",
     title: "Tabs",
     icon: <Logs size={16} />,
-    element: <TabsPage/>,
+    element: <TabsPage />,
   },
   {
     path: "/text",
