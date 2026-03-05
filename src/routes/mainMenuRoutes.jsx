@@ -41,14 +41,14 @@ export const mainMenuRoutes = [
     description:
       "사용자 인터랙션을 유도하는 요소로, 명확한 텍스트와 시각적 피드백을 통해 동작을 직관적으로 인지할 수 있어야 합니다.",
   },
-  {
-    id: "calender",
-    img: "/images/components/Calendar.svg",
-    href: "/calendar",
-    title: "Calendar",
-    description:
-      "날짜 또는 일정 기반 정보를 월 단위 혹은 주 단위로 시각화하여 표시하는 컴포넌트입니다. 이벤트, 마커 등과 함께 직관적인 시간 흐름을 표현하는 데 사용됩니다.",
-  },
+  // {
+  //   id: "calender",
+  //   img: "/images/components/Calendar.svg",
+  //   href: "/calendar",
+  //   title: "Calendar",
+  //   description:
+  //     "날짜 또는 일정 기반 정보를 월 단위 혹은 주 단위로 시각화하여 표시하는 컴포넌트입니다. 이벤트, 마커 등과 함께 직관적인 시간 흐름을 표현하는 데 사용됩니다.",
+  // },
   {
     id: "card",
     img: "/images/components/Card.svg",
@@ -89,14 +89,14 @@ export const mainMenuRoutes = [
     description:
       "화면 위에 겹쳐 뜨는 창으로, 사용자의 집중을 유도하고 주요 작업을 수행하도록 만듭니다. 배경 인터랙션은 제한되며 명확한 닫기 수단이 필요합니다.",
   },
-  {
-    id: "editor",
-    img: "/images/components/Editor.svg",
-    href: "/editor",
-    title: "Editor",
-    description:
-      "사용자가 서식 있는 텍스트(리치 텍스트) 또는 코드, 마크다운 등을 작성할 수 있도록 제공하는 입력 컴포넌트입니다. 툴바, 단축키, 미리보기 기능 등은 사용 목적에 맞게 구성되어야 합니다.",
-  },
+  // {
+  //   id: "editor",
+  //   img: "/images/components/Editor.svg",
+  //   href: "/editor",
+  //   title: "Editor",
+  //   description:
+  //     "사용자가 서식 있는 텍스트(리치 텍스트) 또는 코드, 마크다운 등을 작성할 수 있도록 제공하는 입력 컴포넌트입니다. 툴바, 단축키, 미리보기 기능 등은 사용 목적에 맞게 구성되어야 합니다.",
+  // },
   {
     id: "fileupload",
     img: "/images/components/Fileupload.svg",

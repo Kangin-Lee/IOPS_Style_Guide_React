@@ -6,6 +6,7 @@ import RootLayout from "./layout/RootLayout.jsx";
 import { sideMenuRoutes } from "./routes/sideMenuRoutes.jsx";
 import { Toaster } from "sonner";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import NotFoundPage from "./pages/notFound";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,9 @@ createRoot(document.getElementById("root")).render(
               />
             ))}
           </Route>
+
+          {/* 404 페이지 */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Toaster />
       </BrowserRouter>

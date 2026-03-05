@@ -26,8 +26,6 @@ import {
   Text,
   Home,
   Joystick,
-  Icon,
-  BookOpenTextIcon,
   TextInitial,
 } from "lucide-react";
 import AccordionPage from "@/pages/accordion";
@@ -80,12 +78,12 @@ export const sideMenuRoutes = [
     icon: <CircleArrowRight size={16} />,
     element: <ButtonsPage />,
   },
-  {
-    path: "/calendar",
-    title: "Calendar",
-    icon: <CalendarDays size={16} />,
-    element: <div>Calendar Page</div>,
-  },
+  // {
+  //   path: "/calendar",
+  //   title: "Calendar",
+  //   icon: <CalendarDays size={16} />,
+  //   element: <div>Calendar Page</div>,
+  // },
   {
     path: "/card",
     title: "Card",

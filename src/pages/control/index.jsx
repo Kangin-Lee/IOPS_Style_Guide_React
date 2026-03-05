@@ -1,9 +1,10 @@
 import CodeBox from "@/components/codebox/CodeBox";
-import CheckboxComponent from "./components/CheckboxComponent";
-import RadioGroupComponent from "./components/RadioGroupComponent";
-import SelectboxComponent from "./components/SelectboxComponent";
-import ToggleComponent from "./components/ToggleComponent";
-import SwitchComponent from "./components/SwitchComponent";
+import CheckboxComponent from "./components/checkbox/CheckboxComponent";
+import RadioGroupComponent from "./components/radioGroup/RadioGroupComponent";
+import SwitchComponent from "./components/switch/SwitchComponent";
+import ToggleComponent from "./components/toggle/ToggleComponent";
+import SingleSelectboxComponent from "./components/selectbox/singleSelectbox/SingleSelectboxComponent";
+import MultiSelectComponent from "./components/selectbox/multiSelectbox/MultiSelectboxComponent";
 
 export default function ControlPage() {
   return (
@@ -22,7 +23,10 @@ export default function ControlPage() {
       <RadioGroupComponent />
 
       {/* Selectbox Component */}
-      <SelectboxComponent />
+      <SingleSelectboxComponent />
+
+            {/* Multi Selectbox Component */}
+      <MultiSelectComponent />
         
       {/* Switch Component */}
       <SwitchComponent />

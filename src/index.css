@@ -188,53 +188,6 @@ body {
   body {
     @apply bg-[var(--color-white)] text-[var(--color-text)] font-sans antialiased;
   }
-
-  .rbc-toolbar button {
-    @apply bg-primary text-primary-foreground px-3 py-1 rounded-md hover:bg-primary/80 transition;
-  }
-
-  .rbc-toolbar {
-    @apply flex justify-between items-center mb-4;
-  }
-
-  .rbc-event {
-    @apply text-accent-foreground px-2 py-1 rounded-sm text-sm;
-    background-color: var(--color-primary) !important;
-  }
-
-  .rbc-off-range-bg {
-    @apply bg-muted/40;
-  }
-
-  .rbc-day-bg:hover {
-    @apply bg-[var(--color-table-header)];
-  }
-  .rbc-toolbar-label {
-    @apply font-bold text-2xl;
-  }
-
-  .rbc-event-allday {
-    @apply bg-[var(--color-primary)];
-  }
-  .rbc-month-view {
-    @apply bg-white;
-  }
-
-  /* react-big-calendar showMore 스타일 커스터마이징 */
-  .rbc-show-more {
-    color: var(--color-primary) !important;
-    margin-top: 6px !important;
-    margin-left: 3px;
-    font-size: 14px !important;
-    font-weight: 600 !important;
-    transition: 0.2s;
-  }
-
-  .rbc-show-more:hover {
-    color: var(--color-secondary) !important;
-    transition: 0.2s;
-    cursor: pointer !important;
-  }
 }
 
 @theme {
